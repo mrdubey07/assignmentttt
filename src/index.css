@@ -5,10 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(49, 49, 49);
+
+  background-color: rgb(251, 245, 245);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  box-sizing: border-box;
+  
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+li{
+  text-decoration: none;
+  list-style-type: none;
 }

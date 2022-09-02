@@ -1,0 +1,223 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 90vh;
+  transition: all .5s ease-in-out;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column; 
+    padding: 40px 70px;
+    border: 2px solid rgba(9, 7, 0, 0.861);
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+     
+}
+
+.email{
+    padding: 25px;
+  transition: all .5s ease-in-out;
+
+}
+
+.password{
+    padding: 25px;
+  transition: all .5s ease-in-out;
+
+}
+
+.submit{
+    text-align: center;
+    padding: 25px;
+  transition: all .5s ease-in-out;
+
+}
+
+.emaillabel, .passwordlabel{
+    margin-right: 20px  ;
+    color: rgba(30, 28, 14, 0.901);
+  transition: all .5s ease-in-out;
+
+}
+
+.emaillabel {
+    margin-right: 50px;
+}
+
+.inputemail{
+    text-transform: lowercase;
+}
+
+.inputemail, .inputpassword{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(6, 244, 38);
+    color: rgb(0, 3, 0);
+}
+
+.inputemail:focus, .inputpassword:focus{
+    outline: none;
+    caret-color: rgb(52, 52, 42);
+}
+
+.submit input{
+    padding: 10px 25px;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid rgb(67, 65, 65); 
+    font-size: 16px;
+}
+
+
+.submit input:hover{
+    border: 2px solid rgb(6, 244, 38);
+}
+
+.error{
+    border: none;
+    border-bottom: 1px solid red;
+    color: red;
+    background-color: transparent;
+    outline: none;
+    caret-color: rgb(48, 48, 46);
+}
+
+.span{
+    color: rgba(237, 7, 7, 0.856);
+    margin-top: 5px;
+    display: block;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+    .login {
+      padding: 20px 30px;
+  transition: all .5s ease-in-out;
+
+    }
+
+    .email{
+        padding: 15px;
+  transition: all .5s ease-in-out;
+
+    }
+    
+    .password{
+        padding: 15px;
+  transition: all .5s ease-in-out;
+
+    }
+    
+  }
+
+  @media screen and (max-width: 360px) {
+    .login {
+      padding: 8vh 5vh;
+  transition: all .5s ease-in-out;
+
+    }
+
+    .email{
+        padding: 10px;
+  transition: all .5s ease-in-out;
+    }
+    
+    .password{
+        padding: 10px;
+  transition: all .5s ease-in-out;
+    }
+    .submit input{
+        padding: 5px 15px;
+  transition: all .5s ease-in-out;
+        font-size: 14px;
+    }
+    
+    .email, .password{
+        display: flex;
+  transition: all .5s ease-in-out;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .email label, .password label{
+        margin-right: 0;
+        margin-bottom: 2vh;
+  transition: all .5s ease-in-out;
+    }
+
+    .email input{
+        margin-bottom: 40px;
+  transition: all .5s ease-in-out;
+    }
+    .password input{
+        margin-top: 10px;
+  transition: all .5s ease-in-out;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 250px) {
+    .login {
+      padding: 1vh;
+  transition: all .5s ease-in-out;
+
+  transition: all .5s ease-in-out;
+
+    }
+
+    .email{
+        padding: 2px;
+  transition: all .5s ease-in-out;
+
+  transition: all .5s ease-in-out;
+
+    }
+    
+    .password{
+        padding: 2px;
+  transition: all .5s ease-in-out;
+
+  transition: all .5s ease-in-out;
+
+    }
+    .submit input{
+        padding: 1px 5px;
+        font-size: 14px;
+  transition: all .5s ease-in-out;
+
+  transition: all .5s ease-in-out;
+
+    }
+
+    .email label, .password label{
+        margin-right: 0;
+        margin-bottom: 1vh;
+  transition: all .5s ease-in-out;
+
+  transition: all .5s ease-in-out;
+
+    }
+
+    .email input{
+        margin-bottom: 2vh;
+  transition: all .5s ease-in-out;
+
+    }
+    .password input{
+        margin-top: 2vh;
+  transition: all .5s ease-in-out;
+
+    }
+    
+  }

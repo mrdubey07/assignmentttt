@@ -1,16 +1,15 @@
-
 import './App.css';
-import Issues from './components/Issues';
-
-import FormCtxProvider from './context/FormCtxProvider';
+import { Provider } from 'react-redux';
+import store from './store/store';
+import Direct from './routes/Direct';
 
 function App() {
   return (
-    <div style={{display:'flex', justifyContent: 'center'}}>
-      <FormCtxProvider>
-        <Issues />
-      </FormCtxProvider>
-    </div>
+    <>
+    <Provider store={store}>
+      <Direct />
+    </Provider>
+    </>
   );
 }
 
